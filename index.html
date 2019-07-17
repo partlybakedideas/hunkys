@@ -10,6 +10,19 @@
             margin: 0;
             padding: 0;
             background-color: #ccffff;
+            animation-name: nav;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes nav {
+          0% {
+           height: 5px; 
+           width: 5px;
+          }
+          100% {
+           height: 100%;
+           width: 100%
+          }
         }
         li a:hover {
             background-color: rgb(242, 247, 247);
